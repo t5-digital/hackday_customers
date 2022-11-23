@@ -1,6 +1,6 @@
 const csv = require('async-csv');
 const axios = require('axios');
-const CSV_ADDRESS = 'https://cdn.jsdelivr.net/gh/t5-digital/hackday_customers@main/MOCK_DATA.csv'
+const CSV_ADDRESS = 'https://raw.githubusercontent.com/t5-digital/hackday_customers/main/MOCK_DATA.csv'
  
 
 module.exports = {
