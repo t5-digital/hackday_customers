@@ -8,7 +8,7 @@ module.exports = {
         const csvString = await axios(CSV_ADDRESS);
         const rows = await csv.parse(csvString.data);
         const keys = rows[0];
-        rows.unshift();
+        rows.shift();
         return rows.map(
             r => {
                 const output = {};
